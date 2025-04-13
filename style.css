@@ -135,17 +135,46 @@ button {
 .random-info {
     display: flex;
     flex-direction: column;
+    margin-bottom: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
 }
 
 .empty-box {
     display: flex;
     border:solid #3882F6;
-    padding: 75px;
-    max-width: 50px;
-    border-radius: 15px;
-    max-height: 50px;
-    min-width: 50px;
-    min-height: 50px;
-    border-width: thick;
-
+    padding: 65px;
+    max-width: 10px;
+    border-radius: 10px;
+    max-height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+    border-width: medium;
 }
+
+.box-and-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-text {
+    display: flex;
+    justify-content: center;
+}
+
+.box-text {
+    display: flex;
+    max-width: 150px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    color: gray;
+}
+
+/*End Random Info/Start Quote*/
+
