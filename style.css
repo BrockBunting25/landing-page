@@ -178,3 +178,24 @@ button {
 
 /*End Random Info/Start Quote*/
 
+.whole-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0%;
+}
+
+.quote {
+    display: flex;
+    margin-bottom: 0%;
+    flex-wrap: wrap;
+}
+
+/*End Quote/Start Action*/
