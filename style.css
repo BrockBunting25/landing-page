@@ -199,3 +199,10 @@ button {
 }
 
 /*End Quote/Start Action*/
+
+.call-to-action {
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
