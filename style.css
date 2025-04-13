@@ -1,9 +1,15 @@
 body {
     font-family: Roboto, sans-serif, arial ;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
 }
 
 .header {
    background-color: #1F2937; 
+   padding-bottom: 60px;
+   padding-left: 80px;
+
 }
 
 .footer {
@@ -13,7 +19,9 @@ body {
 .hero-main-text {
    font-size: 48px;
    color: #F9FAF8;
-   font-weight: 900; 
+   font-weight: 900;
+   max-width: 370px; 
+   margin-bottom: 0%;
 }
 
 a {
@@ -24,21 +32,33 @@ a {
 
 ul {
     list-style-type: none;
+    display: flex;
+    padding-right: 60px;
 }
 
 .hero-second-text {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 h1 {
    font-size: 24px;
-   color: #F9FAF8; 
+   color: #F9FAF8;
+   align-self: center;
+   
+  
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 90px;
 }
 
 .call-to-action {
@@ -60,7 +80,16 @@ h3 {
 }
 
 .place-holder {
+    display: flex;
     color: #F9FAF8;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .thor {
@@ -75,4 +104,26 @@ h3 {
 
 h4 {
     font-size: 24px;
+}
+
+.header-logo-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    padding: 20px;
+}
+
+button {
+    max-width: 90px;
+}
+
+.header-subject {
+    display: flex;
+    flex-direction: column;
+}
+
+.hsubject-pholder {
+    display: flex;
 }
