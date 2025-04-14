@@ -229,3 +229,18 @@ h4 {
 }
 
 /*End Action/Start Footer*/
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 34px;
+
+}
+
+.footer {
+    color: #F9FAF8;
+}
+
+/*End Footer*/
